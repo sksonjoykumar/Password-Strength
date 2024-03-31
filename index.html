@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <script
+      src="https://kit.fontawesome.com/8d424f8808.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="section-content">
+        <input
+          type="password"
+          name="password"
+          id="input-password"
+          placeholder="Password"
+        />
+        <button type="button" id="submit-btn">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+        <p id="massage">Password is <span id="strength"></span></p>
+      </div>
+    </main>
+  </body>
+</html>
